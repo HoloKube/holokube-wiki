@@ -1,7 +1,7 @@
-#HoloKube Wiki
+# HoloKube Wiki
 
-#Aim
+# Aim
 
-This project goals is to illustrate Kubernetes clusters in a 3D environment.
-Visualizing your cluster containers and present your architecture in a manner way.
+This project's goal is to illustrate Kubernetes clusters in a 3D environment.
+Visualizing your cluster containers and present your architecture.
 
