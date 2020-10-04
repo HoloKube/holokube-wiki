@@ -12,7 +12,7 @@ Uninstall older versions of Docker
 
 #### Install using the repository
 
-1 . Update the apt package index and install packages to allow apt to use a repository over HTTPS:
+##### Update the apt package index and install packages to allow apt to use a repository over HTTPS:
 ```bash
  sudo apt-get update
  
@@ -24,11 +24,11 @@ Uninstall older versions of Docker
      software-properties-common
 ```
 
-2 . Add Docker’s official [GPG key](https://en.wikipedia.org/wiki/GNU_Privacy_Guard):
+##### Add Docker’s official [GPG key](https://en.wikipedia.org/wiki/GNU_Privacy_Guard):
 ```bash
  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 ```
-3 . Verify that you now have the key with the fingerprint 9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88
+##### Verify that you now have the key with the fingerprint 9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88
 ```bash
  sudo apt-key fingerprint 0EBFCD88
  
@@ -38,7 +38,7 @@ Uninstall older versions of Docker
  sub   rsa4096 2017-02-22 [S]
 ```
 
-4 . Use the following command to set up the stable repository.
+##### Use the following command to set up the stable repository.
 ```bash
  sudo add-apt-repository \
     "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
@@ -46,7 +46,7 @@ Uninstall older versions of Docker
     stable"
 ```
 
-5 . Update the apt package index, and install the latest version of Docker Engine and containerd
+##### Update the apt package index, and install the latest version of Docker Engine and containerd
 ```bash
  sudo apt-get update
  sudo apt-get install docker-ce docker-ce-cli containerd.io
