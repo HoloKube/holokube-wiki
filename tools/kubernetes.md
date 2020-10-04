@@ -2,6 +2,14 @@
 
 There are several ways you can install kubernetes client `kubectl` you can find all documentation in [google cloud docs](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 
+### Recommend
+
+It is recommended to first install gcloud and then kubernetes. Also with gcloud install it will be easier to setup and install `kubectl` from [google cloud docs](https://kubernetes.io/docs/tasks/tools/install-kubectl/#download-as-part-of-the-google-cloud-sdk)
+
+```bash
+gcloud components install kubectl
+```
+
 ### 1. Linux
 ##### Install using native package management 
 
