@@ -14,12 +14,12 @@ spec:
     spec:
       containers:
       - name: simple-server ## Name of the Deployment
-        image: simple-server:1.0 ## Docker images name
+        image: jmalloc/echo-server ## Docker images name
         ports:
         - containerPort: 80 ## Port-forwarding from inside the dokcer 
 ```
 
 To send a manifest to the Kubernetes API, execute this command 
 ```bash
- kubectl apply -f my-file.yaml
+ kubectl apply -f my-file.yaml -n holokube
 ```
